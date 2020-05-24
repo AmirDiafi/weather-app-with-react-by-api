@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(206, 111, 82);
+  color: #EEE
+}
+
+h1{
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .5),
+  -2px -2px 2px rgba(255, 255, 255, .5);
+  font-size: 40px;
+}
+
+.container{
+  width: 60%;
+  padding: 10px;
+  margin: 10% auto;
+  background: rgb(206, 111, 82);
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, .5),
+  -3px -3px 3px rgba(255, 255, 255, .5)
+}
+
+.container h2{
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .5),
+  -2px -2px 2px rgba(255, 255, 255, .5)
+}
+
+.container form {
+  padding :10px;
+}
+
+.container form input {
+  width: 30%;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  text-shadow: none;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, .5),
+  -2px -2px 2px rgba(255, 255, 255, .5);
+  background-color: #EEE;
+}
+
+.container form input:focus{
+  box-shadow: none;
+}
+
+.container button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(206, 111, 82);
+  color: #EEE;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, .5),
+  -2px -2px 2px rgba(255, 255, 255, .5);
+  margin: 5px;
+  cursor: pointer;
+  transition: all .3s linear;
+  font-weight: bold;
+}
+
+.container button:hover {
+  box-shadow: none;
+}
+
+.container .details {
+  margin: 10px auto;
+  padding: 10px
+}
+
+.container p {
+  padding: 10px;
+  margin: 5px;
+}
+
+.container p span {
+  font-size: 18px;
+  font-weight: 500;
+  color : #333
+}
+.container p span:first-child{
+  font-weight: bold;
+  color: #eee
+}
